@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/appBg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutCusProductDateTime"
+        android:orientation="horizontal">
+
+        <TextView
+            android:hint="Date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:id="@+id/tvCustomProductRowDate"
+            android:layout_weight="1" />
+
+        <TextView
+            android:hint="Time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:id="@+id/tvCustomProductRowTime"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:hint="Catagory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/linearLayoutCusProductDateTime"
+        android:id="@+id/tvCustomProductCatagory"
+        android:layout_weight="1" />
+
+    <TextView
+        android:hint="Cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/tvCustomProductCatagory"
+        android:id="@+id/tvCustomProductCost"
+        android:layout_weight="1" />
+
+
+</RelativeLayout>
